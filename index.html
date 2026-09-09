@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Joane van Eeden - Contact</title>
+    <!-- Load FontAwesome for the icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            /* Update this if your background image has a different filename */
+            background: url('background.jpg') no-repeat center center fixed; 
+            background-size: cover;
+            background-color: #fcebdc; /* Fallback color */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            color: #1a1a1a;
+        }
+        .card {
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+            width: 100%;
+            max-width: 380px;
+            padding: 30px 25px;
+            box-sizing: border-box;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            margin-top: 10px;
+        }
+        .logo {
+            width: 150px;
+            margin-bottom: 10px;
+        }
+        h1 {
+            font-size: 1.5rem;
+            margin: 0 0 5px 0;
+            color: #000;
+        }
+        h2 {
+            font-size: 1.05rem;
+            font-weight: 400;
+            margin: 0 0 20px 0;
+            color: #333;
+        }
+        .intro-text {
+            font-size: 0.95rem;
+            line-height: 1.4;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #3f7b73; /* Teal green from mockup */
+            color: white;
+            text-decoration: none;
+            padding: 14px;
+            border-radius: 6px;
+            font-weight: bold;
+            font-size: 0.95rem;
+            margin-bottom: 25px;
+            gap: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .contact-list {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 20px 0;
+            text-align: left;
+        }
+        .contact-list li {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 18px;
+            font-size: 0.95rem;
+            line-height: 1.4;
+            font-weight: 500;
+        }
+        .contact-list i {
+            width: 30px;
+            margin-top: 3px;
+            font-size: 1.2rem;
+            color: #000;
+            text-align: center;
+        }
+        hr {
+            border: 0;
+            border-top: 1px solid #eaeaea;
+            margin: 20px 0;
+        }
+        .map-link {
+            display: inline-flex;
+            align-items: center;
+            color: #000;
+            text-decoration: underline;
+            font-weight: 500;
+            font-size: 0.95rem;
+            gap: 8px;
+        }
+        .ribcage {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            width: 65px;
+        }
+        .footer {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 0.85rem;
+            color: #333;
+            line-height: 1.6;
+        }
+        .footer a {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <!-- Logo Image -->
+        <img src="logo.png" alt="Dr. J van Eeden Logo" class="logo">
+        
+        <h1>Dr. Joane van Eeden</h1>
+        <h2>General Practitioner</h2>
+        
+        <p class="intro-text">Thank you for scanning my business card.<br>You can download my complete contact information below.</p>
+        
+        <!-- Button linking to the vCard file -->
+        <a href="contact.vcf" class="btn">
+            <i class="fas fa-file-download"></i> SAVE CONTACT CARD (.VCF)
+        </a>
+        
+        <ul class="contact-list">
+            <li><i class="fas fa-phone"></i> (021) 872 2610</li>
+            <li><i class="fab fa-instagram"></i> @dr_joane_van_eeden</li>
+            <li><i class="fas fa-envelope"></i> drjoanevaneeden@gmail.com</li>
+            <li><i class="fas fa-map-marker-alt"></i> Drs Greeff and Partners, 16 Fabriek Street, Paarl, 7646</li>
+        </ul>
+        
+        <hr>
+        
+        <!-- Google Maps Direct Link -->
+        <a href="https://maps.google.com/?q=16+Fabriek+St,+Paarl,+7646,+South+Africa" class="map-link">
+            <i class="fas fa-map-marker-alt"></i> View on Map
+        </a>
+        
+        <!-- Bottom Right Graphic -->
+        <img src="ribcage.png" alt="Floral Ribcage" class="ribcage">
+    </div>
+    
+    <div class="footer">
+        Powered by GitHub Pages<br>
+        Practice website: <a href="#">practiceat-practice i</a>
+    </div>
+
+</body>
+</html>
