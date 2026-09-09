@@ -1,0 +1,14 @@
+BEGIN:VCARD
+VERSION:3.0
+FN;CHARSET=UTF-8:Joané van Eeden
+N;CHARSET=UTF-8:van Eeden;Joané;;Dr;
+EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:drjoanevaneeden@gmail.com
+TEL;TYPE=WORK,VOICE:+27218722610
+ADR;CHARSET=UTF-8;TYPE=WORK:;;16 Fabriek street;Paarl;Western Cape;7646;
+TITLE;CHARSET=UTF-8:Doctor
+ROLE;CHARSET=UTF-8:GP\, Travel Medicine\, Emergency Medigcine
+ORG;CHARSET=UTF-8:Dr. Greeff and Partners
+URL;type=WORK;CHARSET=UTF-8:https://www.greeffvennote.net/
+X-SOCIALPROFILE;TYPE=instagram:https://www.instagram.com/dr_joane_van_eeden/
+REV:2026-08-25T11:49:54.264Z
+END:VCARD
